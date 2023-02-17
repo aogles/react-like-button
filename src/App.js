@@ -3,6 +3,7 @@ import React, { useState } from "react";
 function Likes() {
   // Declare a variable to count likes
   const [count, setCount] = useState(0);
+  // if (count === 1 ? "like" ; "likes");
   // usestate set to 0, so starts the count= 0 initially then we control th increment
   return (
     <div>
